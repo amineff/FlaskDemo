@@ -24,4 +24,4 @@ def hello():
     return 'Hello people! I have been seen {} times.\n'.format(count)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000, debug=True)
